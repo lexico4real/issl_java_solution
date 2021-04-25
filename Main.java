@@ -11,8 +11,11 @@ public class Main {
         Fibonacci fibonacci = new Fibonacci();
         fibonacci.getFibonacci(10);
 
-        //ArrayMerge q = new ArrayMerge();
+
         PrimeNumbers primeNumbers = new PrimeNumbers();
         primeNumbers.result();
+
+        ArrayMerge arrayMerge = new ArrayMerge();
+        arrayMerge.merge();
     }
 }
